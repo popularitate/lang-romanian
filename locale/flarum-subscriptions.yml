@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: Nu mai urmări
+      unignore_button: Scoate ignore
 
     # These translations are used on the page that displays all subscriptions.
     following:
@@ -28,37 +28,37 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} a postat"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: Urmăriți automat discuțiile la care răspund
+      notify_new_post_label: Cineva postează într-o discuție pe care o urmăresc
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Fiți informat despre toate răspunsurile.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Nu fi niciodată notificat. Ascundeți din lista de discuții.
+      not_following_button: Nu urmărești
+      not_following_text: "Notificat numai când sunt @menționat."
+      notify_alert_tooltip: Primiți o notificare pe forum atunci când există postări noi
+      notify_email_tooltip: Primiți un e-mail când există postări noi
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when a post is made in a subscribed discussion
     new_post:
-      subject: "[New Post] {title}"
+      subject: "[Postare noua] {title}"
       body: |
-        Hey {recipient_display_name}!
+        Salut {recipient_display_name}!
 
-        {poster_display_name} made a post in a discussion you're following: {title}.
+        {poster_display_name} a făcut o postare într-o discuție pe care o urmărești: {title}.
 
-        To view the new activity, check out the following link:
+        Pentru a vizualiza noua activitate, consultați următorul link:
         {url}
 
         ---
@@ -67,7 +67,7 @@ flarum-subscriptions:
 
         ---
 
-        You won't receive any more notifications about this discussion until you're up-to-date.
+         Nu veți mai primi notificări despre această discuție până nu veți fi la curent.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -75,6 +75,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: Urmărește
+    following: Urmăresc
+    ignoring: Ignora
