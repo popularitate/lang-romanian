@@ -1,5 +1,5 @@
 {
-    "name": "flarum/lang-romanian",
+    "name": "popularitate/lang-romanian",
     "type": "flarum-extension",
     "description": "Romanian language pack.",
     "keywords": ["locale"],
@@ -7,6 +7,7 @@
     "require": {
         "flarum/core": "^0.1.0-beta.14"
     },
+    "minimum-stability": "dev"
     "extra": {
         "branch-alias": {
             "dev-master": "0.1.x-dev"
