@@ -9,29 +9,29 @@ flarum-suspend:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      suspend_users_label: Suspend users
+      suspend_users_label: Suspendați utilizatorii
 
   # Translations in this namespace are used by the forum user interface.
   forum:
     # These translations are used in the suspension notifications
     notifications:
-      user_suspended_text: "{username} suspended you for {timeReadable}"
-      user_unsuspended_text: "{username} unsuspended you"
+      user_suspended_text: "{username} te-a suspendat pentru {timeReadable}"
+      user_unsuspended_text: "{username} ti-a scos suspendul"
 
     # These translations are used in the Suspend User modal dialog (admin function).
     suspend_user:
-      indefinitely_label: Suspended indefinitely
-      limited_time_days_text: " days"
-      limited_time_label: Suspended for a limited time...
-      not_suspended_label: Not suspended
-      status_heading: Suspension Status
+      indefinitely_label: Suspendat pe viata
+      limited_time_days_text: " zile"
+      limited_time_label: Suspendat pentru o perioadă limitată...
+      not_suspended_label: Nu este suspendat
+      status_heading: Stare de suspendare
       submit_button: => core.ref.save_changes
-      title: "Suspend {username}"
+      title: "Suspenda pe {username}"
 
     # These translations are displayed as tooltips for user badges.
     user_badge:
-      suspended_tooltip: Suspended
+      suspended_tooltip: Suspendat
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      suspend_button: Suspend
+      suspend_button: Suspenda
