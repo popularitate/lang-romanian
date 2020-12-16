@@ -1,4 +1,4 @@
-# English Language Pack for Flarum
+# Romanian Language Pack for Flarum
 
 ## Installation
 
