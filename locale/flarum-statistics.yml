@@ -11,10 +11,10 @@ flarum-statistics:
     statistics:
       active_users_text: "{count} active"
       discussions_heading: => core.ref.discussions
-      last_12_months_label: Last 12 months
-      last_28_days_label: Last 28 days
-      last_7_days_label: Last 7 days
+      last_12_months_label: Ultimele 12 luni
+      last_28_days_label: Ultimele 28 zile
+      last_7_days_label: Ultimele 7 zile
       posts_heading: => core.ref.posts
-      today_label: Today
+      today_label: Astăzi
       total_label: Total
       users_heading: => core.ref.users
