@@ -1,34 +1,44 @@
 {
-    "name": "popularitate/lang-romanian",
-    "type": "flarum-extension",
-    "description": "Romanian language pack.",
-    "keywords": ["locale"],
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.14"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.1.x-dev"
-        },
-        "flarum-extension": {
-            "title": "Romanian",
-            "category": "language",
-            "info": {
-                "donate": "https://flarum.org/donate/",
-                "website": "https://flarum.org",
-                "support": "https://discuss.flarum.org"
-            },
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#00247d",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "ro",
-            "title": "Romanian"
-        }
-    }
+	"name": "popularitate/lang-romanian",
+	"type": "flarum-extension",
+	"description": "Romanian language pack for Flarum.",
+	"homepage": "https://github.com/popularitate/lang-romanian",
+	"keywords": [
+		"locale",
+		"flarum",
+		"romanian-locale"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Breaker",
+			"homepage": "https://www.apexlegends.ro"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/popularitate/lang-romanian/issues",
+		"source": "https://github.com/popularitate/lang-romanian"
+	},
+	"require": {
+		"flarum/core": "^0.1.0-beta.11"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"extra": {
+		"branch-alias": {
+			"dev-master": "0.3.x-dev"
+		},
+		"flarum-extension": {
+			"title": "Romanian language pack",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "ro",
+			"title": "Romana"
+		}
+	}
 }
