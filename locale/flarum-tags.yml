@@ -39,7 +39,7 @@ flarum-tags:
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " către "
+      range_separator_text: " din "
       required_primary_heading: Numărul necesar de etichete principale
       required_primary_text: Introduceți numărul minim și maxim de etichete principale care pot fi aplicate unei discuții.
       required_secondary_heading: Numărul necesar de etichete secundare
