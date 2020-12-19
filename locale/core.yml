@@ -623,7 +623,7 @@ core:
     previous_page: Previous Page
     remove: Elimină
     rename: Redenumiți
-    reply: Răspuns                                 # Referenced by flarum-mentions.yml
+    reply: Răspunde                                 # Referenced by flarum-mentions.yml
     reset_your_password: Reseteaza parola
     restore: Restabiliți
     save_changes: Salvează modificările                   # Referenced by flarum-suspend.yml, flarum-tags.yml
