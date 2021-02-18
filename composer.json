@@ -20,7 +20,7 @@
 		"source": "https://github.com/popularitate/lang-romanian"
 	},
 	"require": {
-		"flarum/core": "^0.1.0-beta.11"
+		"flarum/core": "^0.1.0-beta.15"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
@@ -30,6 +30,12 @@
 		},
 		"flarum-extension": {
 			"title": "Romanian language pack",
+			"category": "language",
+            "info": {
+                "donate": "https://www.paypal.com/donate?hosted_button_id=H6Y32G5R2CSDU",
+                "website": "https://github.com/popularitate/lang-romanian",
+                "support": "https://github.com/popularitate/lang-romanian/issues"
+            },
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
